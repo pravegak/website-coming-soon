@@ -13,7 +13,12 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        Monoton: ['Monoton', 'sans-serif'],
+        Nunito: ['Nunito', 'sans-serif'],
+      },
+    },
   },
   variants: {},
   plugins: [],
